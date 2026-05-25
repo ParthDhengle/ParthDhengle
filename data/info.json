@@ -1,161 +1,213 @@
 {
-    "Professional_headline":"AI & Data Science Enthusiast | Full Stack Learner | Creative Problem Solver",
-    "Sub_heading":"I'm an AI & Data Science student passionate about building real-world projects, productivity tech, and smart systems that make a difference.",
-    
-    "Who_I_Am":["I'm a dedicated AI & Data Science student with a passion for creating innovative solutions to real-world problems. My journey in technology is driven by curiosity and a desire to build systems that enhance human productivity and creativity.",
-        "Currently pursuing my B.E. in Artificial Intelligence & Data Science, I'm constantly expanding my knowledge through hands-on projects, hackathons, and collaborative work."
+    "Professional_headline": "AI Engineer & Aspiring Data Engineer | MLOps · Full Stack · Agentic AI",
+    "Sub_heading": "Final-year AI & Data Science student building production ML pipelines, data-intensive systems, and intelligent applications — actively transitioning into Data Engineering with hands-on experience in ETL, BigQuery, and MLOps infrastructure.",
+
+    "Who_I_Am": [
+        "I'm a final-year AI & Data Science student passionate about building intelligent systems, scalable data pipelines, and production-ready AI solutions.",
+        "My experience spans full-stack development, MLOps platforms, multi-agent AI systems, and real-time applications — delivered through internships, research publications, and competitive hackathons.",
+        "I'm actively deepening my expertise in Data Engineering: building ETL pipelines, working with BigQuery and PostgreSQL at scale, orchestrating workflows with Prefect, and designing dual-layer (OLTP + OLAP) data architectures."
     ],
-    "My_Interests":["Participating in hackathons and coding competitions",
-        "Designing intuitive software solutions",
-       "Building personal productivity tools",
-        "Developing intelligent assistant systems",
-        "Exploring the intersection of AI and human creativity",
-        "Learning new technologies and frameworks"],
+
+    "My_Interests": [
+        "Designing and building ETL/ELT data pipelines",
+        "Exploring data warehouse and lakehouse architectures",
+        "Building AI-powered systems and automation tools",
+        "Scalable backend and MLOps infrastructure",
+        "Participating in hackathons and coding competitions",
+        "Learning modern cloud and data platform technologies"
+    ],
 
     "skills": [
         {
             "title": "Programming & CS",
             "icon": "code",
             "content": [
-            "Python",
-            "C++",
-            "JavaScript (Pragmatic)",
-            "TypeScript (Working Knowledge)",
-            "Data Structures & Algorithms"
+                "Python",
+                "C++",
+                "JavaScript / TypeScript",
+                "SQL",
+                "Data Structures & Algorithms",
+                "OOP",
+                "System Design"
+            ]
+        },
+        {
+            "title": "Data Engineering",
+            "icon": "database",
+            "content": [
+                "ETL / ELT Pipelines",
+                "Feature Engineering",
+                "BigQuery (OLAP)",
+                "PostgreSQL (OLTP)",
+                "Dual-layer Data Architecture",
+                "Prefect (Workflow Orchestration)",
+                "Data Modeling"
             ]
         },
         {
             "title": "AI / Machine Learning",
             "icon": "cpu",
             "content": [
-            "Machine Learning Pipelines",
-            "Scikit-learn",
-            "Pandas",
-            "NumPy",
-            "Deep Learning Fundamentals",
-            "TensorFlow (Basics)",
-            "NLP & Embeddings",
-            "RAG Systems (FAISS / Vector DBs)"
+                "Machine Learning & Deep Learning",
+                "Scikit-learn",
+                "Pandas",
+                "NumPy",
+                "TensorFlow",
+                "NLP & Embeddings",
+                "RAG Systems (FAISS / Vector DBs)",
+                "CrewAI (Multi-agent Systems)",
+                "XGBoost",
+                "LightGBM"
+            ]
+        },
+        {
+            "title": "MLOps & Monitoring",
+            "icon": "activity",
+            "content": [
+                "MLflow (Experiment Tracking & Registry)",
+                "Evidently (Data & Model Drift)",
+                "Prometheus & Grafana",
+                "CI/CD (GitHub Actions)",
+                "Docker"
             ]
         },
         {
             "title": "Backend & Systems",
             "icon": "server",
             "content": [
-            "FastAPI",
-            "REST APIs",
-            "Async & Background Tasks",
-            "System Design (Modular & Scalable)"
+                "FastAPI",
+                "Node.js",
+                "REST APIs",
+                "Async & Background Tasks",
+                "System Design (Modular & Scalable)"
             ]
         },
         {
             "title": "Frontend & Web",
             "icon": "layout",
             "content": [
-            "React",
-            "Next.js",
-            "Tailwind CSS",
-            "shadcn/ui"
+                "React",
+                "Next.js",
+                "Tailwind CSS",
+                "shadcn/ui"
             ]
         },
         {
             "title": "Databases & Storage",
             "icon": "database",
             "content": [
-            "MySQL",
-            "MongoDB",
-            "Vector Databases"
+                "PostgreSQL",
+                "BigQuery",
+                "MySQL",
+                "MongoDB",
+                "Firebase",
+                "Vector Databases (FAISS)"
             ]
         },
         {
-            "title": "DevOps & Tools",
+            "title": "DevOps & Cloud",
             "icon": "tools",
             "content": [
-            "Git & GitHub",
-            "Vercel",
-            "AWS (Basics)",
-            "Hugging Face",
-            "Ollama",
-            "Electron",
-            "Firebase (Auth & Firestore)"
+                "Docker",
+                "AWS EC2",
+                "Git & GitHub",
+                "CI/CD Basics",
+                "Vercel",
+                "Hugging Face",
+                "Ollama",
+                "Electron"
             ]
         },
         {
             "title": "Professional & Leadership",
             "icon": "users",
             "content": [
-            "Ownership & Accountability",
-            "Problem Decomposition",
-            "Technical Communication",
-            "Client Interaction",
-            "Agile / Scrum Collaboration",
-            "Mentorship & Knowledge Sharing",
-            "Learning Fast & Adapting"
+                "Ownership & Accountability",
+                "Problem Decomposition",
+                "Technical Communication",
+                "Client Interaction",
+                "Agile / Scrum Collaboration",
+                "Mentorship & Knowledge Sharing",
+                "Learning Fast & Adapting"
             ]
         }
     ],
 
     "projects": [
         {
-            "name": "ClipHub",
+            "name": "SmartShelf - MLOps Platform",
+            "tagline": "End-to-End Demand Forecasting & Inventory Optimizer",
+            "description": "Architected a 3-model chained MLOps pipeline (Demand Forecasting → Price Optimisation → Inventory EOQ) achieving 85%+ forecast accuracy with 35+ engineered features. Designed a dual-layer data architecture: PostgreSQL (OLTP) for transactional data and BigQuery (OLAP) for analytics. Automated weekly retraining via Prefect with full model versioning in MLflow Registry. Deployed a FastAPI serving layer with Prometheus + Grafana monitoring, containerised via Docker with CI/CD on GitHub Actions.",
+            "image": "SmartShelf_panel.png",
+            "tech": ["XGBoost", "LightGBM", "FastAPI", "Prefect", "MLflow", "PostgreSQL", "BigQuery", "Docker", "Prometheus", "Grafana"],
+            "status": "Completed",
+            "github": "https://github.com/ParthDhengle",
+            "live_link": ""
+        },
+        {
+            "name": "NOVA - Agentic AI System",
+            "tagline": "Multi-Agent AI Workflow System",
+            "description": "Designed a multi-agent AI system (CrewAI, 60+ tools) for autonomous task planning with a RAG pipeline (FAISS) for semantic retrieval and contextual memory. Packaged as a cross-platform desktop app via Electron with Firebase auth and real-time data sync.",
+            "tech": ["FastAPI", "CrewAI", "FAISS", "Firebase", "Electron", "LLMs"],
+            "status": "In Development",
+            "github": "https://github.com/ParthDhengle/crew-ai-trial",
+            "live_link": ""
+        },
+        {
+            "name": "ClipHub - Media Platform",
             "tagline": "Full-Stack Media Platform for Creators",
             "description": "An end-to-end media platform enabling creators to upload, stream, and organize short video and music content with leaderboards and challenges.",
-            "image":"ClipHub_panal.png",
+            "image": "ClipHub_panel.png",
             "tech": ["Next.js", "FastAPI", "Firebase", "Cloudinary"],
             "status": "Live",
-            "github":"https://github.com/ParthDhengle/Clip-Hub",
-            "live_link":"https://www.cliphub.in/"
+            "github": "https://github.com/ParthDhengle/Clip-Hub",
+            "live_link": "https://www.cliphub.in/"
         },
         {
-            "name": "NOVA",
-            "tagline": "Agentic AI Workflow System",
-            "description": "An AI-powered assistant that plans tasks based on mood, energy, and behavior using agentic reasoning and RAG pipelines.",
-            "tech": ["FastAPI", "CrewAI", "FAISS", "Firebase", "Electron","LLMs"],
-            "status": "In Development",
-            "github":"https://github.com/ParthDhengle/crew-ai-trial",
-            "live_link":""
-        },
-        {
-            "name": "Insight Lab",
-            "tagline": "Automated Data Analysis Tool",
-            "description": "A tool that automatically analyzes datasets and generates insights and visualizations to reduce manual data analysis effort.",
-            "image":"InsightLab_panal.jpg",
-            "tech": ["Python", "Streamlit", "Pandas", "Plotly", "OpenAI API"],
+            "name": "GradeX - AI Coding Platform",
+            "tagline": "Real-time Multiplayer Coding Sandbox",
+            "description": "Real-time multiplayer coding platform with ELO matchmaking, LLM-driven problem generation via OpenRouter, and sandboxed code execution on Docker + AWS EC2.",
+            "image": "GradeX_panel.png",
+            "tech": ["Next.js", "Node.js", "AWS EC2", "OpenRouter", "Docker"],
             "status": "Live",
-            "github":"https://github.com/ParthDhengle/Insight-Lab",
-            "live_link":"https://insightlab.streamlit.app/"
+            "github": "https://github.com/ParthDhengle",
+            "live_link": ""
         }
     ],
+
+    "research": [
+        {
+            "title": "Invisible Watermarking for AI-Generated Images",
+            "subtitle": "A Comparative Study of Spatial and Transform Domain Techniques",
+            "journal": "IJSREM",
+            "date": "April 2026",
+            "co_author": "Atharva Deo",
+            "guide": "Dr. D.S. Zingade, AISSMS IOIT",
+            "description": "First comparative study of Spatial vs. Transform Domain watermarking techniques applied to Stable Diffusion XL outputs — addressing deepfake detection, IP protection, and AI content authenticity.",
+            "tags": ["AI Content Authentication", "Digital Watermarking", "Deepfake Detection", "Image Processing"]
+        }
+    ],
+
     "experience": [
         {
             "role": "SDE Intern (Python / Full Stack)",
             "organization": "YCS Tech",
-            "duration": "Aug 2025 - Present",
+            "duration": "Aug 2025 - Feb 2026",
+            "location": "Pune, Maharashtra | Full-time, On-site",
             "details": [
-            "Developed a full-stack battery simulation system with real-time data handling.",
-            "Implemented scalable backend services and modular system design.",
-            "Collaborated in Agile/Scrum environments with direct client interaction.",
-            "Worked on performance optimization and production-ready deployments.",
-            "Additional technical details are not disclosed due to contractual confidentiality."
+                "Built a full-stack Task Management Dashboard using Next.js with real-time state persistence and optimised UI rendering for 3+ concurrent client workflows.",
+                "Led end-to-end development of a Battery Simulation Platform (Next.js + FastAPI) enabling real-time parameter computation and visualisation for industrial testing; packaged as a Windows .exe via Electron, reducing manual setup time to under 2 minutes.",
+                "Optimised REST API pipelines and async processing, reducing average backend response latency by ~30%.",
+                "Delivered 2 production-ready systems across Agile Scrum sprints with CI/CD deployments and direct stakeholder collaboration."
             ]
         },
         {
             "role": "Machine Learning Head",
-            "organization": "Department of AI & DS",
+            "organization": "Department of AI & DS, AISSMS IOIT",
             "duration": "Sep 2025 - Present",
             "details": [
-            "Led peer learning initiatives and guided students on machine learning concepts.",
-            "Provided technical direction for ML-related projects and discussions.",
-            "Encouraged collaborative problem-solving and knowledge sharing."
-            ]
-        },
-        {
-            "role": "Competitive Programming Mentor",
-            "organization": "AI Adventure",
-            "duration": "Aug 2024 - May 2025",
-            "details": [
-            "Mentored students in Python, data structures, and machine learning basics.",
-            "Focused on problem-solving strategies and applied ML concepts."
+                "Organised ML/GenAI workshops and mentored peers on AI and machine learning projects.",
+                "Provided technical direction for ML-related initiatives and encouraged collaborative problem-solving."
             ]
         },
         {
@@ -163,10 +215,20 @@
             "organization": "Multiple Institutions",
             "duration": "2023 - 2025",
             "details": [
-            "Participated in multiple national-level hackathons and coding competitions.",
-            "Built end-to-end solutions under strict time constraints.",
-            "Secured top positions including first place at institute-level coding competitions."
+                "Participated in 7+ national-level hackathons and coding competitions.",
+                "Built end-to-end solutions under strict time constraints.",
+                "3x Winner - Coding Relay (AISSMS, Keystone) and Blind Coding at inter-college fests.",
+                "Top-3 Finishes - 2nd in Hack the Template & Code Hunt; 3rd in Bit by Bit."
             ]
         }
+    ],
+
+    "achievements": [
+        "3x Winner - Coding Relay (AISSMS, Keystone) and Blind Coding at inter-college fests",
+        "2nd place - Hack the Template & Code Hunt",
+        "3rd place - Bit by Bit",
+        "7+ hackathons participated across national-level events",
+        "Published Researcher - Co-authored a peer-reviewed paper on AI content authentication and digital watermarking (IJSREM, April 2026)",
+        "ML Head - AI & DS Dept., organised GenAI workshops and mentored peers"
     ]
 }

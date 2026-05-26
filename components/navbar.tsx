@@ -33,7 +33,15 @@ export default function Navbar() {
       suppressHydrationWarning
     >
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="text-xl font-bold">Parth Dhengle</div>
+        <div className="flex items-center">
+
+          <img
+            src="/logo.png"
+            alt="Icon"
+            className="h-8 w-8 mr-2 rounded-full object-cover"
+          />
+          <div className="text-xl font-bold">Parth Dhengle</div>
+        </div>
         <div className="hidden md:flex space-x-6">
           <button
             onClick={() => scrollToSection("about")}

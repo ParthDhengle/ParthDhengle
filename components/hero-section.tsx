@@ -107,7 +107,7 @@ export default function HeroSection({
           <div className="relative w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 animate-float">
             <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-primary/20 shadow-xl">
               <Image
-                src="/Profile_Pic.jpg?height=320&width=320"
+                src="/Profile_Pic.png?height=320&width=320"
                 alt="Parth's profile"
                 fill
                 className="object-cover"

@@ -1,137 +1,82 @@
 {
-    "Professional_headline": "AI Engineer & Aspiring Data Engineer | MLOps · Full Stack · Agentic AI",
-    "Sub_heading": "Final-year AI & Data Science student building production ML pipelines, data-intensive systems, and intelligent applications — actively transitioning into Data Engineering with hands-on experience in ETL, BigQuery, and MLOps infrastructure.",
+    "Professional_headline": "Software Developer",
+    "Sub_heading":"I build AI-powered applications, scalable backend systems and agentic workflows that solve real-world problems." ,
 
-    "Who_I_Am": [
-        "I'm a final-year AI & Data Science student passionate about building intelligent systems, scalable data pipelines, and production-ready AI solutions.",
-        "My experience spans full-stack development, MLOps platforms, multi-agent AI systems, and real-time applications — delivered through internships, research publications, and competitive hackathons.",
-        "I'm actively deepening my expertise in Data Engineering: building ETL pipelines, working with BigQuery and PostgreSQL at scale, orchestrating workflows with Prefect, and designing dual-layer (OLTP + OLAP) data architectures."
-    ],
-
-    "My_Interests": [
-        "Designing and building ETL/ELT data pipelines",
-        "Exploring data warehouse and lakehouse architectures",
-        "Building AI-powered systems and automation tools",
-        "Scalable backend and MLOps infrastructure",
-        "Participating in hackathons and coding competitions",
-        "Learning modern cloud and data platform technologies"
-    ],
-
+    "Who_I_Am":[
+        "I'm a final-year B.Tech student in AI & Data Science with over a year of software engineering experience, building production-ready backend systems and AI-powered applications.",
+        "I work across Generative AI, RAG, multi-agent systems, and backend engineering. Currently, I'm focused on building scalable intelligent systems, exploring agentic AI, and strengthening my system design and data engineering skills."
+        ],
+    
     "skills": [
-        {
-            "title": "Programming & CS",
-            "icon": "code",
-            "content": [
-                "Python",
-                "C++",
-                "JavaScript / TypeScript",
-                "SQL",
-                "Data Structures & Algorithms",
-                "OOP",
-                "System Design"
-            ]
-        },
-        {
-            "title": "Data Engineering",
-            "icon": "database",
-            "content": [
-                "ETL / ELT Pipelines",
-                "Feature Engineering",
-                "BigQuery (OLAP)",
-                "PostgreSQL (OLTP)",
-                "Dual-layer Data Architecture",
-                "Prefect (Workflow Orchestration)",
-                "Data Modeling"
-            ]
-        },
-        {
-            "title": "AI / Machine Learning",
-            "icon": "cpu",
-            "content": [
-                "Machine Learning & Deep Learning",
-                "Scikit-learn",
-                "Pandas",
-                "NumPy",
-                "TensorFlow",
-                "NLP & Embeddings",
-                "RAG Systems (FAISS / Vector DBs)",
-                "CrewAI (Multi-agent Systems)",
-                "XGBoost",
-                "LightGBM"
-            ]
-        },
-        {
-            "title": "MLOps & Monitoring",
-            "icon": "activity",
-            "content": [
-                "MLflow (Experiment Tracking & Registry)",
-                "Evidently (Data & Model Drift)",
-                "Prometheus & Grafana",
-                "CI/CD (GitHub Actions)",
-                "Docker"
-            ]
-        },
-        {
-            "title": "Backend & Systems",
-            "icon": "server",
-            "content": [
-                "FastAPI",
-                "Node.js",
-                "REST APIs",
-                "Async & Background Tasks",
-                "System Design (Modular & Scalable)"
-            ]
-        },
-        {
-            "title": "Frontend & Web",
-            "icon": "layout",
-            "content": [
-                "React",
-                "Next.js",
-                "Tailwind CSS",
-                "shadcn/ui"
-            ]
-        },
-        {
-            "title": "Databases & Storage",
-            "icon": "database",
-            "content": [
-                "PostgreSQL",
-                "BigQuery",
-                "MySQL",
-                "MongoDB",
-                "Firebase",
-                "Vector Databases (FAISS)"
-            ]
-        },
-        {
-            "title": "DevOps & Cloud",
-            "icon": "tools",
-            "content": [
-                "Docker",
-                "AWS EC2",
-                "Git & GitHub",
-                "CI/CD Basics",
-                "Vercel",
-                "Hugging Face",
-                "Ollama",
-                "Electron"
-            ]
-        },
-        {
-            "title": "Professional & Leadership",
-            "icon": "users",
-            "content": [
-                "Ownership & Accountability",
-                "Problem Decomposition",
-                "Technical Communication",
-                "Client Interaction",
-                "Agile / Scrum Collaboration",
-                "Mentorship & Knowledge Sharing",
-                "Learning Fast & Adapting"
-            ]
-        }
+    {
+        "title": "Programming Languages",
+        "icon": "code",
+        "content": [
+        "Python",
+        "SQL",
+        "JavaScript"
+        ]
+    },
+    {
+        "title": "AI / ML & LLMs",
+        "icon": "cpu",
+        "content": [
+        "Machine Learning",
+        "Transformers",
+        "CNN",
+        "RAG",
+        "LangChain",
+        "LangGraph",
+        "Agentic AI",
+        "MLflow",
+        "Vector Databases (Qdrant)"
+        ]
+    },
+    {
+        "title": "Backend & Databases",
+        "icon": "database",
+        "content": [
+        "FastAPI",
+        "REST APIs",
+        "PostgreSQL",
+        "MongoDB",
+        "Microservices",
+        "Asynchronous Programming"
+        ]
+    },
+    {
+        "title": "Data Engineering",
+        "icon": "server",
+        "content": [
+        "ETL / ELT Pipelines (Prefect)",
+        "Data Modeling",
+        "Data Quality & Drift Monitoring (Evidently)",
+        "BigQuery"
+        ]
+    },
+    {
+        "title": "MLOps & DevOps",
+        "icon": "activity",
+        "content": [
+        "MLflow",
+        "Evidently",
+        "Docker",
+        "Git",
+        "GitHub Actions (CI/CD)"
+        ]
+    },
+    {
+        "title": "Cloud & Infrastructure",
+        "icon": "cloud",
+        "content": [
+        "AWS EC2",
+        "AWS RDS",
+        "AWS ECS",
+        "AWS ECR"
+        ]
+    }
     ],
+
 
     "projects": [
         {

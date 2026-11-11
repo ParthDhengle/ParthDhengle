@@ -24,7 +24,7 @@ type ExperienceSectionProps = {
 
 export default function ExperienceSection({ experiences }: ExperienceSectionProps) {
   return (
-    <section id="resume" className="py-20 px-4 relative overflow-hidden">
+    <section id="experiences" className="py-20 px-4 relative overflow-hidden">
       <div className="absolute inset-0 bg-grid opacity-70" />
 
       <div className="container mx-auto relative z-10">

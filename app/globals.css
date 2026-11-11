@@ -147,3 +147,19 @@
     animation: none;
   }
 }
+
+@keyframes liquid-glow {
+  0%, 100% {
+    filter: blur(18px) hue-rotate(0deg);
+    transform: scale(1);
+  }
+
+  50% {
+    filter: blur(25px) hue-rotate(20deg);
+    transform: scale(1.12);
+  }
+}
+
+.liquid-glow {
+  animation: liquid-glow 4s ease-in-out infinite;
+}

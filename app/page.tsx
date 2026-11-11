@@ -15,7 +15,7 @@ export default function Home() {
       <AnimatedBackground />
       <Navbar />
       <HeroSection headline={data.Professional_headline} subHeadline={data.Sub_heading} />
-      <AboutSection about_me={data.Who_I_Am} intrest={data.My_Interests}/>
+      <AboutSection about_me={data.Who_I_Am}/>
       <SkillsSection skills={data.skills}/>
       <ProjectsSection projects={data.projects}/>
       <ExperienceSection experiences={data.experience}/>
